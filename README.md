@@ -19,16 +19,9 @@ This circuit compresses 8 concurrent binary input signals ($D_0$ through $D_7$) 
 ## Minimized Logic Equations
 
 Derived via Boolean Logic principals from the 8-input truth table:
-
-```text
-A2 (MSB) = D7 + D6 + D5 + D4
-
-A1       = D7 + D6 + D5'D4'D3 + D5'D4'D2
-
-A0 (LSB) = D7 + D6'D5 + D6'D4'D3 + D6'D4'D2'D1
-
-V (Valid)= D7 + D6 + D5 + D4 + D3 + D2 + D1 + D0
-```
+| Front Design (3D Render) |
+| :---: |
+| ![Front View](SaferErrorDelivery/Visuals/Truth%20Table%20+%20Equations%20-%20Sheet1.png) |
 ---
 
 ## Hardware & Components
